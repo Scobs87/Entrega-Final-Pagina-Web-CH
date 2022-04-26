@@ -1,0 +1,264 @@
+@import "variables";
+@import "navbar";
+@import "main";
+@import "footer";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: rgb(22, 21, 21);
+}
+
+@media only screen and (max-width: 376px) {
+  .elSub {
+    padding: 30px;
+    font-size: 66%;
+  }
+  .carousel-item {
+    .container {
+      padding-left: 4rem;
+    }
+  }
+  .elFont h1 {
+    font-size: 300%;
+  }
+
+  .col-2 {
+    width: 47%;
+  }
+
+  .trend-top-cap {
+    bottom: 50px;
+  }
+
+  .trend-top-cap span {
+    font-size: 90%;
+  }
+
+  .trend-top-cap h2 {
+    font-size: 90%;
+  }
+
+  .contenedor {
+    display: flex;
+    height: 100%;
+    max-width: 100%;
+  }
+
+  .contenedor .card {
+    width: 88vw;
+    height: 50vh;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    .art {
+      width: 17rem;
+    }
+  }
+
+  .tituloAbout {
+    text-align: center;
+  }
+
+  .formulario {
+    padding: 2rem;
+  }
+
+  .jumbotron {
+    padding: 10px;
+  }
+
+  .context1 {
+    height: 12.5rem;
+    .txt1 {
+      bottom: 8rem;
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+  }
+  .context2 {
+    height: 16.5rem;
+    .txt2 {
+      bottom: 10rem;
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+  }
+  .context3 {
+    height: 16.5rem;
+    .txt3 {
+      bottom: 10rem;
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  .context4 {
+    height: 16.5rem;
+    .txt4 {
+      bottom: 9.5rem;
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  .context5 {
+    height: 13.5rem;
+    .txt5 {
+      bottom: 9rem;
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  .context6 {
+    height: 15rem;
+    .txt6 {
+      bottom: 10rem;
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  .context7 {
+    height: 11rem;
+    .txt7 {
+      bottom: 7.5rem;
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+  }
+  .context8 {
+    height: 11rem;
+    .txt8 {
+      bottom: 7.5rem;
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  .context9 {
+    height: 11rem;
+    .txt9 {
+      bottom: 7.5rem;
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  .context10 {
+    height: 16rem;
+    .txt10 {
+      bottom: 11rem;
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+  }
+  .context11 {
+    height: 11rem;
+    .txt11 {
+      bottom: 7rem;
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+  }
+  .context12 {
+    height: 16.5rem;
+    .txt12 {
+      bottom: 10.5rem;
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  .context13 {
+    height: 14.5rem;
+    .txt13 {
+      bottom: 10.5rem;
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  .context14 {
+    height: 20rem;
+    .txt14 {
+      bottom: 11rem;
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  .context15 {
+    height: 16rem;
+    .txt15 {
+      bottom: 9rem;
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  .context16 {
+    height: 11rem;
+    .txt16 {
+      bottom: 7rem;
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  .context17 {
+    height: 16rem;
+    .txt17 {
+      bottom: 10.5rem;
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  .context18 {
+    height: 14.5rem;
+    .txt18 {
+      bottom: 9.5rem;
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  .context19 {
+    height: 11rem;
+    .txt19 {
+      bottom: 8rem;
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}

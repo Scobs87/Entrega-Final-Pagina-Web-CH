@@ -1,0 +1,1105 @@
+.laNav {
+  background-color: black;
+}
+
+.laNav .latitud32 {
+  font-family: "Monoton", cursive;
+  font-family: "Permanent Marker", cursive;
+  color: white;
+}
+
+.elFont {
+  font-family: "Nunito", sans-serif;
+}
+
+.textointro {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: textointro;
+          animation-name: textointro;
+}
+
+@-webkit-keyframes textointro {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes textointro {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.carousel-item {
+  height: 42rem;
+  background-color: black;
+  color: white;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+
+.carousel-item .overlay-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+}
+
+.carousel-item .container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-left: 26rem;
+  padding-bottom: 20rem;
+}
+
+.carousel-item .elSub {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 23rem;
+}
+
+.carousel-item .elSub .elFont {
+  font-family: "Nunito", sans-serif;
+}
+
+.margaritas {
+  max-width: 100%;
+}
+
+.elFont h1 {
+  font-size: 600%;
+}
+
+h2 a {
+  color: white;
+  text-decoration: none;
+}
+
+h2 a .elFont {
+  font-family: "Nunito", sans-serif;
+}
+
+h2 :hover {
+  color: red;
+}
+
+h4 .Noti {
+  color: white;
+  text-decoration: none;
+}
+
+h4 :hover {
+  color: red;
+}
+
+.trending-top .trend-top-img img {
+  border-color: white;
+  border-radius: 1%;
+}
+
+.trend-top-cap {
+  position: relative;
+  bottom: 120px;
+  left: 10px;
+  color: white;
+}
+
+.trend-top-cap .elFont {
+  font-family: "Nunito", sans-serif;
+}
+
+.trand-right-cap {
+  color: white;
+}
+
+.trand-right-cap .elFont {
+  font-family: "Nunito", sans-serif;
+}
+
+.textoartistas {
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: textoartistas;
+          animation-name: textoartistas;
+}
+
+@-webkit-keyframes textoartistas {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes textoartistas {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.lasCards {
+  margin-top: 10rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: 10rem;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.lasCards .elbounce:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.lasCards .arti {
+  text-align: center;
+}
+
+.fontContacto {
+  font-family: "Nunito", sans-serif;
+}
+
+.contenedor {
+  width: 100%;
+  max-width: 85%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  padding-bottom: 2rem;
+}
+
+.contenedor .card {
+  width: 332px;
+  height: 50vh;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 10px;
+  text-align: center;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+.contenedor .card:hover {
+  -webkit-transform: translateY(-15px);
+          transform: translateY(-15px);
+  -webkit-box-shadow: 0, 12px, 16px, rgba(0, 0, 0, 0.2);
+          box-shadow: 0, 12px, 16px, rgba(0, 0, 0, 0.2);
+}
+
+.contenedor .card img {
+  width: 330px;
+  height: 220px;
+}
+
+.contenedor .card h4 {
+  padding: 1rem;
+  font-weight: 600;
+}
+
+.contenedor .card p {
+  padding: 0 1rem;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.contenedor .card a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #171515;
+}
+
+.lead {
+  line-height: 150%;
+  text-align: justify;
+}
+
+.formulario {
+  position: relative;
+  color: white;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.campos {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.display-5 {
+  letter-spacing: 12px;
+}
+
+.noticlass {
+  margin: 6rem;
+}
+
+.artclass {
+  padding: 1rem;
+}
+
+.context1 {
+  position: relative;
+  text-align: center;
+  height: 22.5rem;
+}
+
+.context1 .txt1 {
+  color: white;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  bottom: 13rem;
+}
+
+.context1 .txt1 h1 {
+  text-shadow: 2px 2px black;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  opacity: 0;
+}
+
+.context1:hover .txt1 h1 {
+  opacity: 1;
+}
+
+.context2 {
+  position: relative;
+  text-align: center;
+  height: 29.5rem;
+}
+
+.context2 .txt2 {
+  color: white;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  bottom: 16rem;
+}
+
+.context2 .txt2 h1 {
+  text-shadow: 2px 2px black;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  opacity: 0;
+}
+
+.context2:hover .txt2 h1 {
+  opacity: 1;
+}
+
+.context3 {
+  position: relative;
+  text-align: center;
+  height: 29.5rem;
+}
+
+.context3 .txt3 {
+  color: white;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  bottom: 17rem;
+}
+
+.context3 .txt3 h1 {
+  text-shadow: 2px 2px black;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  opacity: 0;
+}
+
+.context3:hover .txt3 h1 {
+  opacity: 1;
+}
+
+.context4 {
+  position: relative;
+  text-align: center;
+  height: 29.5rem;
+}
+
+.context4 .txt4 {
+  color: white;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  bottom: 17rem;
+}
+
+.context4 .txt4 h1 {
+  text-shadow: 2px 2px black;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  opacity: 0;
+}
+
+.context4:hover .txt4 h1 {
+  opacity: 1;
+}
+
+.context5 {
+  position: relative;
+  text-align: center;
+  height: 24rem;
+}
+
+.context5 .txt5 {
+  color: white;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  bottom: 14rem;
+}
+
+.context5 .txt5 h1 {
+  text-shadow: 2px 2px black;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  opacity: 0;
+}
+
+.context5:hover .txt5 h1 {
+  opacity: 1;
+}
+
+.context6 {
+  position: relative;
+  text-align: center;
+  height: 28rem;
+}
+
+.context6 .txt6 {
+  color: white;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  bottom: 17rem;
+}
+
+.context6 .txt6 h1 {
+  text-shadow: 2px 2px black;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  opacity: 0;
+}
+
+.context6:hover .txt6 h1 {
+  opacity: 1;
+}
+
+.context7 {
+  position: relative;
+  text-align: center;
+  height: 20rem;
+}
+
+.context7 .txt7 {
+  color: white;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  bottom: 12rem;
+}
+
+.context7 .txt7 h1 {
+  text-shadow: 2px 2px black;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  opacity: 0;
+}
+
+.context7:hover .txt7 h1 {
+  opacity: 1;
+}
+
+.context8 {
+  position: relative;
+  text-align: center;
+  height: 20rem;
+}
+
+.context8 .txt8 {
+  color: white;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  bottom: 12rem;
+}
+
+.context8 .txt8 h1 {
+  text-shadow: 2px 2px black;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  opacity: 0;
+}
+
+.context8:hover .txt8 h1 {
+  opacity: 1;
+}
+
+.context9 {
+  position: relative;
+  text-align: center;
+  height: 20rem;
+}
+
+.context9 .txt9 {
+  color: white;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  bottom: 12rem;
+}
+
+.context9 .txt9 h1 {
+  text-shadow: 2px 2px black;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  opacity: 0;
+}
+
+.context9:hover .txt9 h1 {
+  opacity: 1;
+}
+
+.context10 {
+  position: relative;
+  text-align: center;
+  height: 29.5rem;
+}
+
+.context10 .txt10 {
+  color: white;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  bottom: 17rem;
+}
+
+.context10 .txt10 h1 {
+  text-shadow: 2px 2px black;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  opacity: 0;
+}
+
+.context10:hover .txt10 h1 {
+  opacity: 1;
+}
+
+.context11 {
+  position: relative;
+  text-align: center;
+  height: 20rem;
+}
+
+.context11 .txt11 {
+  color: white;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  bottom: 12rem;
+}
+
+.context11 .txt11 h1 {
+  text-shadow: 2px 2px black;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  opacity: 0;
+}
+
+.context11:hover .txt11 h1 {
+  opacity: 1;
+}
+
+.context12 {
+  position: relative;
+  text-align: center;
+  height: 29.5rem;
+}
+
+.context12 .txt12 {
+  color: white;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  bottom: 18rem;
+}
+
+.context12 .txt12 h1 {
+  text-shadow: 2px 2px black;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  opacity: 0;
+}
+
+.context12:hover .txt12 h1 {
+  opacity: 1;
+}
+
+.context13 {
+  position: relative;
+  text-align: center;
+  height: 28rem;
+}
+
+.context13 .txt13 {
+  color: white;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  bottom: 18rem;
+}
+
+.context13 .txt13 h1 {
+  text-shadow: 2px 2px black;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  opacity: 0;
+}
+
+.context13:hover .txt13 h1 {
+  opacity: 1;
+}
+
+.context14 {
+  position: relative;
+  text-align: center;
+  height: 36.5rem;
+}
+
+.context14 .txt14 {
+  color: white;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  bottom: 20rem;
+}
+
+.context14 .txt14 h1 {
+  text-shadow: 2px 2px black;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  opacity: 0;
+}
+
+.context14:hover .txt14 h1 {
+  opacity: 1;
+}
+
+.context15 {
+  position: relative;
+  text-align: center;
+  height: 29.5rem;
+}
+
+.context15 .txt15 {
+  color: white;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  bottom: 17rem;
+}
+
+.context15 .txt15 h1 {
+  text-shadow: 2px 2px black;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  opacity: 0;
+}
+
+.context15:hover .txt15 h1 {
+  opacity: 1;
+}
+
+.context16 {
+  position: relative;
+  text-align: center;
+  height: 20rem;
+}
+
+.context16 .txt16 {
+  color: white;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  bottom: 12rem;
+}
+
+.context16 .txt16 h1 {
+  text-shadow: 2px 2px black;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  opacity: 0;
+}
+
+.context16:hover .txt16 h1 {
+  opacity: 1;
+}
+
+.context17 {
+  position: relative;
+  text-align: center;
+  height: 29.5rem;
+}
+
+.context17 .txt17 {
+  color: white;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  bottom: 17rem;
+}
+
+.context17 .txt17 h1 {
+  text-shadow: 2px 2px black;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  opacity: 0;
+}
+
+.context17:hover .txt17 h1 {
+  opacity: 1;
+}
+
+.context18 {
+  position: relative;
+  text-align: center;
+  height: 27rem;
+}
+
+.context18 .txt18 {
+  color: white;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  bottom: 17rem;
+}
+
+.context18 .txt18 h1 {
+  text-shadow: 2px 2px black;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  opacity: 0;
+}
+
+.context18:hover .txt18 h1 {
+  opacity: 1;
+}
+
+.context19 {
+  position: relative;
+  text-align: center;
+  height: 19rem;
+}
+
+.context19 .txt19 {
+  color: white;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  bottom: 13rem;
+}
+
+.context19 .txt19 h1 {
+  text-shadow: 2px 2px black;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  opacity: 0;
+}
+
+.context19:hover .txt19 h1 {
+  opacity: 1;
+}
+
+footer {
+  margin-top: auto;
+  background-color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+  background-color: #161515;
+}
+
+@media only screen and (max-width: 376px) {
+  .elSub {
+    padding: 30px;
+    font-size: 66%;
+  }
+  .carousel-item .container {
+    padding-left: 4rem;
+  }
+  .elFont h1 {
+    font-size: 300%;
+  }
+  .col-2 {
+    width: 47%;
+  }
+  .trend-top-cap {
+    bottom: 50px;
+  }
+  .trend-top-cap span {
+    font-size: 90%;
+  }
+  .trend-top-cap h2 {
+    font-size: 90%;
+  }
+  .contenedor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    max-width: 100%;
+  }
+  .contenedor .card {
+    width: 88vw;
+    height: 50vh;
+  }
+  .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .row .art {
+    width: 17rem;
+  }
+  .tituloAbout {
+    text-align: center;
+  }
+  .formulario {
+    padding: 2rem;
+  }
+  .jumbotron {
+    padding: 10px;
+  }
+  .context1 {
+    height: 12.5rem;
+  }
+  .context1 .txt1 {
+    bottom: 8rem;
+  }
+  .context1 .txt1 h1 {
+    font-size: 1.5rem;
+  }
+  .context2 {
+    height: 16.5rem;
+  }
+  .context2 .txt2 {
+    bottom: 10rem;
+  }
+  .context2 .txt2 h1 {
+    font-size: 1.5rem;
+  }
+  .context3 {
+    height: 16.5rem;
+  }
+  .context3 .txt3 {
+    bottom: 10rem;
+  }
+  .context3 .txt3 h1 {
+    font-size: 1.5rem;
+  }
+  .context4 {
+    height: 16.5rem;
+  }
+  .context4 .txt4 {
+    bottom: 9.5rem;
+  }
+  .context4 .txt4 h1 {
+    font-size: 1.5rem;
+  }
+  .context5 {
+    height: 13.5rem;
+  }
+  .context5 .txt5 {
+    bottom: 9rem;
+  }
+  .context5 .txt5 h1 {
+    font-size: 1.5rem;
+  }
+  .context6 {
+    height: 15rem;
+  }
+  .context6 .txt6 {
+    bottom: 10rem;
+  }
+  .context6 .txt6 h1 {
+    font-size: 1.5rem;
+  }
+  .context7 {
+    height: 11rem;
+  }
+  .context7 .txt7 {
+    bottom: 7.5rem;
+  }
+  .context7 .txt7 h1 {
+    font-size: 1.5rem;
+  }
+  .context8 {
+    height: 11rem;
+  }
+  .context8 .txt8 {
+    bottom: 7.5rem;
+  }
+  .context8 .txt8 h1 {
+    font-size: 1.5rem;
+  }
+  .context9 {
+    height: 11rem;
+  }
+  .context9 .txt9 {
+    bottom: 7.5rem;
+  }
+  .context9 .txt9 h1 {
+    font-size: 1.5rem;
+  }
+  .context10 {
+    height: 16rem;
+  }
+  .context10 .txt10 {
+    bottom: 11rem;
+  }
+  .context10 .txt10 h1 {
+    font-size: 1.5rem;
+  }
+  .context11 {
+    height: 11rem;
+  }
+  .context11 .txt11 {
+    bottom: 7rem;
+  }
+  .context11 .txt11 h1 {
+    font-size: 1.5rem;
+  }
+  .context12 {
+    height: 16.5rem;
+  }
+  .context12 .txt12 {
+    bottom: 10.5rem;
+  }
+  .context12 .txt12 h1 {
+    font-size: 1.5rem;
+  }
+  .context13 {
+    height: 14.5rem;
+  }
+  .context13 .txt13 {
+    bottom: 10.5rem;
+  }
+  .context13 .txt13 h1 {
+    font-size: 1.5rem;
+  }
+  .context14 {
+    height: 20rem;
+  }
+  .context14 .txt14 {
+    bottom: 11rem;
+  }
+  .context14 .txt14 h1 {
+    font-size: 1.5rem;
+  }
+  .context15 {
+    height: 16rem;
+  }
+  .context15 .txt15 {
+    bottom: 9rem;
+  }
+  .context15 .txt15 h1 {
+    font-size: 1.5rem;
+  }
+  .context16 {
+    height: 11rem;
+  }
+  .context16 .txt16 {
+    bottom: 7rem;
+  }
+  .context16 .txt16 h1 {
+    font-size: 1.5rem;
+  }
+  .context17 {
+    height: 16rem;
+  }
+  .context17 .txt17 {
+    bottom: 10.5rem;
+  }
+  .context17 .txt17 h1 {
+    font-size: 1.5rem;
+  }
+  .context18 {
+    height: 14.5rem;
+  }
+  .context18 .txt18 {
+    bottom: 9.5rem;
+  }
+  .context18 .txt18 h1 {
+    font-size: 1.5rem;
+  }
+  .context19 {
+    height: 11rem;
+  }
+  .context19 .txt19 {
+    bottom: 8rem;
+  }
+  .context19 .txt19 h1 {
+    font-size: 1.5rem;
+  }
+}
+/*# sourceMappingURL=estilo.css.map */

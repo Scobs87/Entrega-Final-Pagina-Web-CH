@@ -1,0 +1,637 @@
+// Texto Carusel
+
+.textointro {
+  animation-duration: 2s;
+  animation-name: textointro;
+  @keyframes textointro {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}
+
+.carousel-item {
+  height: 42rem;
+  background-color: black;
+  color: $elWhite;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  .overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+  }
+  .container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-left: 26rem;
+    padding-bottom: 20rem;
+  }
+  .elSub {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding-top: 23rem;
+
+    .elFont {
+      font-family: "Nunito", sans-serif;
+    }
+  }
+}
+
+.margaritas {
+  max-width: 100%;
+}
+
+.elFont h1 {
+  font-size: 600%;
+}
+
+h2 {
+  a {
+    color: $elWhite;
+    text-decoration: none;
+    .elFont {
+      font-family: "Nunito", sans-serif;
+    }
+  }
+  :hover {
+    color: red;
+  }
+}
+
+h4 {
+  .Noti {
+    color: $elWhite;
+    text-decoration: none;
+  }
+  :hover {
+    color: red;
+  }
+}
+
+.trending-top .trend-top-img img {
+  border-color: $elWhite;
+  border-radius: 1%;
+}
+
+.trend-top-cap {
+  position: relative;
+  bottom: 120px;
+  left: 10px;
+  color: $elWhite;
+  .elFont {
+    font-family: "Nunito", sans-serif;
+  }
+}
+
+.trand-right-cap {
+  color: $elWhite;
+  .elFont {
+    font-family: "Nunito", sans-serif;
+  }
+}
+
+// Texto pagina Artistas
+
+.textoartistas {
+  animation-duration: 3s;
+  animation-name: textoartistas;
+  @keyframes textoartistas {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}
+
+.lasCards {
+  margin-top: 10rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: 10rem;
+  transition: 1s;
+  .elbounce:hover {
+    transform: scale(1.1);
+  }
+  .arti {
+    text-align: center;
+  }
+}
+
+.fontContacto {
+  font-family: "Nunito", sans-serif;
+}
+
+.contenedor {
+  width: 100%;
+  max-width: 85%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  padding-bottom: 2rem;
+}
+
+.contenedor .card {
+  width: 332px;
+  height: 50vh;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 10px;
+  text-align: center;
+  transition: all 0.25s;
+}
+
+.contenedor .card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0, 12px, 16px, rgba(0, 0, 0, 0.2);
+}
+
+.contenedor .card img {
+  width: 330px;
+  height: 220px;
+}
+
+.contenedor .card h4 {
+  padding: 1rem;
+  font-weight: 600;
+}
+
+.contenedor .card p {
+  padding: 0 1rem;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.contenedor .card a {
+  font-weight: 500;
+  text-decoration: none;
+  color: rgb(23, 21, 21);
+}
+
+.lead {
+  line-height: 150%;
+  text-align: justify;
+}
+
+.formulario {
+  position: relative;
+  color: white;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.campos {
+  justify-content: center;
+}
+
+.display-5 {
+  letter-spacing: 12px;
+}
+
+.noticlass {
+  margin: 6rem;
+}
+
+.artclass {
+  padding: 1rem;
+}
+
+.context1 {
+  position: relative;
+  text-align: center;
+  height: 22.5rem;
+  .txt1 {
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    bottom: 13rem;
+
+    h1 {
+      text-shadow: 2px 2px black;
+      transition: all 0.5s;
+      opacity: 0;
+    }
+  }
+  &:hover .txt1 h1 {
+    opacity: 1;
+  }
+}
+
+.context2 {
+  position: relative;
+  text-align: center;
+  height: 29.5rem;
+  .txt2 {
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    bottom: 16rem;
+
+    h1 {
+      text-shadow: 2px 2px black;
+      transition: all 0.5s;
+      opacity: 0;
+    }
+  }
+  &:hover .txt2 h1 {
+    opacity: 1;
+  }
+}
+
+.context3 {
+  position: relative;
+  text-align: center;
+  height: 29.5rem;
+  .txt3 {
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    bottom: 17rem;
+
+    h1 {
+      text-shadow: 2px 2px black;
+      transition: all 0.5s;
+      opacity: 0;
+    }
+  }
+  &:hover .txt3 h1 {
+    opacity: 1;
+  }
+}
+
+.context4 {
+  position: relative;
+  text-align: center;
+  height: 29.5rem;
+  .txt4 {
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    bottom: 17rem;
+
+    h1 {
+      text-shadow: 2px 2px black;
+      transition: all 0.5s;
+      opacity: 0;
+    }
+  }
+  &:hover .txt4 h1 {
+    opacity: 1;
+  }
+}
+
+.context5 {
+  position: relative;
+  text-align: center;
+  height: 24rem;
+  .txt5 {
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    bottom: 14rem;
+
+    h1 {
+      text-shadow: 2px 2px black;
+      transition: all 0.5s;
+      opacity: 0;
+    }
+  }
+  &:hover .txt5 h1 {
+    opacity: 1;
+  }
+}
+
+.context6 {
+  position: relative;
+  text-align: center;
+  height: 28rem;
+  .txt6 {
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    bottom: 17rem;
+
+    h1 {
+      text-shadow: 2px 2px black;
+      transition: all 0.5s;
+      opacity: 0;
+    }
+  }
+  &:hover .txt6 h1 {
+    opacity: 1;
+  }
+}
+
+.context7 {
+  position: relative;
+  text-align: center;
+  height: 20rem;
+  .txt7 {
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    bottom: 12rem;
+
+    h1 {
+      text-shadow: 2px 2px black;
+      transition: all 0.5s;
+      opacity: 0;
+    }
+  }
+  &:hover .txt7 h1 {
+    opacity: 1;
+  }
+}
+
+.context8 {
+  position: relative;
+  text-align: center;
+  height: 20rem;
+  .txt8 {
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    bottom: 12rem;
+
+    h1 {
+      text-shadow: 2px 2px black;
+      transition: all 0.5s;
+      opacity: 0;
+    }
+  }
+  &:hover .txt8 h1 {
+    opacity: 1;
+  }
+}
+
+.context9 {
+  position: relative;
+  text-align: center;
+  height: 20rem;
+  .txt9 {
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    bottom: 12rem;
+
+    h1 {
+      text-shadow: 2px 2px black;
+      transition: all 0.5s;
+      opacity: 0;
+    }
+  }
+  &:hover .txt9 h1 {
+    opacity: 1;
+  }
+}
+
+.context10 {
+  position: relative;
+  text-align: center;
+  height: 29.5rem;
+  .txt10 {
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    bottom: 17rem;
+
+    h1 {
+      text-shadow: 2px 2px black;
+      transition: all 0.5s;
+      opacity: 0;
+    }
+  }
+  &:hover .txt10 h1 {
+    opacity: 1;
+  }
+}
+
+.context11 {
+  position: relative;
+  text-align: center;
+  height: 20rem;
+  .txt11 {
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    bottom: 12rem;
+
+    h1 {
+      text-shadow: 2px 2px black;
+      transition: all 0.5s;
+      opacity: 0;
+    }
+  }
+  &:hover .txt11 h1 {
+    opacity: 1;
+  }
+}
+
+.context12 {
+  position: relative;
+  text-align: center;
+  height: 29.5rem;
+  .txt12 {
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    bottom: 18rem;
+
+    h1 {
+      text-shadow: 2px 2px black;
+      transition: all 0.5s;
+      opacity: 0;
+    }
+  }
+  &:hover .txt12 h1 {
+    opacity: 1;
+  }
+}
+
+.context13 {
+  position: relative;
+  text-align: center;
+  height: 28rem;
+  .txt13 {
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    bottom: 18rem;
+
+    h1 {
+      text-shadow: 2px 2px black;
+      transition: all 0.5s;
+      opacity: 0;
+    }
+  }
+  &:hover .txt13 h1 {
+    opacity: 1;
+  }
+}
+
+.context14 {
+  position: relative;
+  text-align: center;
+  height: 36.5rem;
+  .txt14 {
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    bottom: 20rem;
+
+    h1 {
+      text-shadow: 2px 2px black;
+      transition: all 0.5s;
+      opacity: 0;
+    }
+  }
+  &:hover .txt14 h1 {
+    opacity: 1;
+  }
+}
+
+.context15 {
+  position: relative;
+  text-align: center;
+  height: 29.5rem;
+  .txt15 {
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    bottom: 17rem;
+
+    h1 {
+      text-shadow: 2px 2px black;
+      transition: all 0.5s;
+      opacity: 0;
+    }
+  }
+  &:hover .txt15 h1 {
+    opacity: 1;
+  }
+}
+
+.context16 {
+  position: relative;
+  text-align: center;
+  height: 20rem;
+  .txt16 {
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    bottom: 12rem;
+
+    h1 {
+      text-shadow: 2px 2px black;
+      transition: all 0.5s;
+      opacity: 0;
+    }
+  }
+  &:hover .txt16 h1 {
+    opacity: 1;
+  }
+}
+
+.context17 {
+  position: relative;
+  text-align: center;
+  height: 29.5rem;
+  .txt17 {
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    bottom: 17rem;
+
+    h1 {
+      text-shadow: 2px 2px black;
+      transition: all 0.5s;
+      opacity: 0;
+    }
+  }
+  &:hover .txt17 h1 {
+    opacity: 1;
+  }
+}
+
+.context18 {
+  position: relative;
+  text-align: center;
+  height: 27rem;
+  .txt18 {
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    bottom: 17rem;
+
+    h1 {
+      text-shadow: 2px 2px black;
+      transition: all 0.5s;
+      opacity: 0;
+    }
+  }
+  &:hover .txt18 h1 {
+    opacity: 1;
+  }
+}
+
+.context19 {
+  position: relative;
+  text-align: center;
+  height: 19rem;
+  .txt19 {
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    bottom: 13rem;
+
+    h1 {
+      text-shadow: 2px 2px black;
+      transition: all 0.5s;
+      opacity: 0;
+    }
+  }
+  &:hover .txt19 h1 {
+    opacity: 1;
+  }
+}
